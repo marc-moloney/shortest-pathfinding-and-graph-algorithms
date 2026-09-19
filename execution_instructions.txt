@@ -1,0 +1,31 @@
+(1) To run Dijkstra's algorithm from part 1, run the file processgrid.py and input
+the name of the grid CSV file, ensuring the file is in the same directory. Its
+results then get outputted, eg:
+Dijkstra's algorithm removed items: 1160
+Dijkstra's algorithm vertices added to open APQ: 1160
+Dijkstra's algorithm time taken: 0.00716 seconds
+Dijkstra's algorithm path cost: 451
+for grid2costs.csv
+
+(2) To run the shortest path in simple grids code for part 2, we can do the same thing.
+Run the file processgrid.py and input the name of the grid CSV file, ensuring the file
+is in the same directory. The code will then execute, and we will get a window popup of
+the animation of the search on the grid, which is a visual representation of the code
+executing.
+
+(3) Again, to execute the code for path 3 we run the file processgrid.py and input
+the name of the grid CSV file, ensuring the file is in the same directory. To check
+our results for A* they are outputted as follows; eg:
+A* removed items: 335
+A* vertices added to open APQ: 358
+A* time taken: 0.00213 seconds
+A* path cost: 451
+for gridcosts.csv
+
+Since Dijkstra's algorithm results are also outputted it allows us to compare the performance.
+A more in-depth comparison is done in the file evaluations_report.
+
+(4) Like before, to execute the code after adding vertex costs for Dijkstra's algorithm
+and A*, run the file processgrid.py and input the name of the grid CSV file, ensuring the
+file is in the same directory. Dijkstra's algorithm and A* are then executed with the added
+feature of vertex costs, and the results are outputted like in part (1) and (3).
